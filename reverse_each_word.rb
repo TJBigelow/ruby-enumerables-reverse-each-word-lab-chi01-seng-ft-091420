@@ -7,3 +7,4 @@ def reverse_each_word(string)
     reverse_array.push(rev_word)
   }
   reverse_array.join(' ')
+end
