@@ -1,4 +1,4 @@
-def reverse_each_word_with_each(string)
+def reverse_each_word(string)
   string_array = string.split(' ')
   reverse_array = []
   string_array.each {|word|
@@ -8,7 +8,7 @@ def reverse_each_word_with_each(string)
   reverse_array.join(' ')
 end
 
-def reverse_each_word(string)
+def reverse_each_word_collect(string)
   string_array = string.split(' ')
   string_array.collect {|word| word.reverse}.join(' ')
 end
